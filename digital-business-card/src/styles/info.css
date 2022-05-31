@@ -1,0 +1,92 @@
+.Info {
+    background: #1A1B21;
+    margin: auto;
+    width: min-content;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.Info--name {
+    color: white;
+    margin: 0;
+    font-weight: normal;
+}
+
+.Info--designation {
+    color: #F3BF99;
+    margin: 0;
+    font-weight: normal;
+}
+
+.Info--website {
+    color: #F5F5F5;
+    margin: 0;
+    font-weight: normal;
+}
+
+.Info--buttons {
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+}
+
+.Info--buttons-email {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 25px 10px 25px;
+    border-radius: 6px 6px 6px 6px;
+    color: #374151;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.Info--buttons-email > h5 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 5px;
+    font-weight: normal;
+}
+
+
+.Info--buttons-linkedin {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 25px 10px 25px;
+    border-radius: 6px 6px 6px 6px;
+    color: #FFFFFF;
+    background-color: #5093E2;
+    margin-right: 10px;
+}
+
+.Info--buttons-linkedin > h5 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 5px;
+    font-weight: normal;
+}
+
+.Info--about {
+    margin: 25px 40px 0px 40px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.Info--about > h4 {
+    color: #F5F5F5;
+    margin: 0;
+}
+
+.Info--about > h6 {
+    color: #DCDCDC;
+    margin: 0;
+    font-weight: normal;
+}
+
+.Info--footer {
+    margin: 35px 0 0 0;
+    padding: 0;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    color: #F5F5F5;
+}
