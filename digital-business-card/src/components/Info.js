@@ -40,10 +40,10 @@ function Info() {
 
         {/* Footer */}
         <div className="Info--footer">
-          <FontAwesomeIcon icon={faTwitterSquare} />
-          <FontAwesomeIcon icon={faFacebookSquare} />
-          <FontAwesomeIcon icon={faInstagramSquare} />
-          <FontAwesomeIcon icon={faGithubSquare} />
+          <FontAwesomeIcon className="Info--footer_icon" icon={faTwitterSquare} />
+          <FontAwesomeIcon className="Info--footer_icon" icon={faFacebookSquare} />
+          <FontAwesomeIcon className="Info--footer_icon" icon={faInstagramSquare} />
+          <FontAwesomeIcon className="Info--footer_icon" icon={faGithubSquare} />
         </div>
     </div>
   );

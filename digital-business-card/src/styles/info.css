@@ -85,8 +85,12 @@
 .Info--footer {
     margin: 35px 0 0 0;
     padding: 0;
-    height: 64px;
     background: #161619;
     border-radius: 0px 0px 10px 10px;
+}
+
+.Info--footer_icon {
     color: #F5F5F5;
+    font-size: 34px;
+    margin: 25px 5px 25px 5px;
 }
